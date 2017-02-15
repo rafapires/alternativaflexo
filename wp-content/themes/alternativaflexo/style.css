@@ -593,12 +593,12 @@ header ul.nav li ul li.dropdown-submenu li a {
 box-shadow: none;
 }
 
-.main-slider .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-.main-slider .flex-caption { bottom: 85px; background-color: rgba(0, 0, 0, 0.6); color: #fff; margin: 0; padding: 3px 25px 23px 23px; position: absolute; border-radius: 25px; width: 360px;left: 120px;}
-.main-slider .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; font-size: 21px;}
-.main-slider .flex-caption p {margin: 0 0 15px;}
-.main-slider .flex-caption .left {left: 70px; }
-.main-slider .flex-caption .right {right: 70px; }
+.carousel .slide {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.carousel .slide { bottom: 85px; background-color: rgba(0, 0, 0, 0.6); color: #fff; margin: 0; padding: 3px 25px 23px 23px; position: absolute; border-radius: 25px; width: 360px;left: 120px;}
+.carousel .slide h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; font-size: 21px;}
+.carousel .slide p {margin: 0 0 15px;}
+.carousel .slide .left {left: 70px; }
+.carousel .slide .right {right: 70px; }
 .main-slider  .flex-direction-nav a:before  { 
 	font-family: "flexslider-icon"; 
 	font-size: 20px; 
@@ -2307,11 +2307,11 @@ article img.pull-right, article .align-right{
 	 display:none; 
   }
   
-  .main-slider .flex-caption {
+  .carousel .slide {
 	width: 290px;  
   }
   
-  .main-slider .flex-caption h3{
+  .carousel .slide h3{
 	font-size: 15px;  
   }
 
@@ -2339,14 +2339,14 @@ article img.pull-right, article .align-right{
 		height:20px;
 		font-size:14px;
 	}
-	.main-slider .flex-caption {
+	.carousel .slide {
 		bottom: 0;
 		text-align: center;
 		max-width: 100%;
     	left: inherit;
     	margin: 0 30px 0 30px!important;
 	}
-	.main-slider .flex-caption p {
+	.carousel .slide p {
 		display: none;
 	}
 	
