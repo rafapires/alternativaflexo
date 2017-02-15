@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="col-sm-8 blog-main">
+<div class="col-sm-12 blog-main">
 
 <?php
 if ( have_posts() ){
@@ -22,5 +22,5 @@ endwhile;
 </ul>
 </nav>
 
- </div><!-- /.blog-main -->
+</div><!-- /.blog-main -->
  <?php get_footer(); ?>
