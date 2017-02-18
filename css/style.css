@@ -698,6 +698,14 @@ section.callaction {
     z-index:120;
 }
 
+.parallax2 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+
 #parallax1{	
 	background-image: url(../img/parallax/1.jpg);
     background-position: center;
@@ -706,6 +714,16 @@ section.callaction {
     position:relative;
     z-index:120; 
 }
+
+#parallax2{	
+	background-image: url(../img/parallax/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display:block;
+    position:relative;
+    z-index:120; 
+}
+
 
 #parallax1:after {	
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
@@ -2018,7 +2036,11 @@ a.scrollup i:hover {
 	text-decoration:none;
 }
 
-
+.wufoo-form {
+    border: solid 10px white;
+    border-radius: 16px;
+    background: white;
+}
 
 
 /* =============================
