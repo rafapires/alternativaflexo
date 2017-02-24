@@ -651,39 +651,29 @@ ol.carousel-indicators {
 /* ===================================
 7. Section: call action
 ==================================== */
-section.callaction {
-	background:#fafafa;
-	padding:30px 0 0 0;
-}
-.cta-text, .cta-text2 {
-	margin-top:10px;
-	text-align: left;
+
+#call_to_action .thumbnail {
+    height: 292px;
+    background: #fafafa;
+    border: none;
 }
 
-.cta-text h2, .cta-text2 h2 {
-	font-weight:900;
-	line-height:1.1em;
-	font-weight: 700;
+#call_to_action h3 {
+	color: #d53438;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 
-.cta-text2 {
-	text-align:center;
+#call_to_action p {
+	font-size: 16px;
+	line-height: 2.2;
+	font-weight: 500;
 }
 
-.cta-text2 h2 {
-	font-weight: 400;
-	text-align:center;
-	margin-bottom: 6px;
-}
-
-.cta-text2 p {
-	font-size:18px;
-}
-
-.cta-btn {
-	float:right;
-	padding:20px;
-	margin-top:10px;
+#call_to_action a.btn.btn-theme {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 /* ===================================
