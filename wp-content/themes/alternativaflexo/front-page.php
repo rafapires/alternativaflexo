@@ -69,7 +69,10 @@
 
     </div>
   </div>
-
+  <h2 class="text-center">
+  		Oferecemos soluções que <span class="vermelho">agregam valor</span> e <span class="vermelho">melhoram</span> o ambiente de trabalho.
+  </h2>
+  <p class="text-center">Reduzindo desperdícios, aumentando a vida útil e incrementando a produtividade.</p>
 </div>
 </section> <!-- end call to action -->
 

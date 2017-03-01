@@ -48,6 +48,9 @@ h1,h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
+.vermelho {
+	color: #d53438;
+}
 /* ===================================
 2. layout
 ==================================== */
@@ -678,6 +681,18 @@ ol.carousel-indicators {
     font-size: 20px;
     font-weight: 900;
 }
+
+#call_to_action h2 {
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+
+#call_to_action p {
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0 0 28px;
+}
+
 
 /* ===================================
 8. Section: Content
