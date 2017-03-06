@@ -126,4 +126,21 @@
     </div>
 </section> <!-- end parallax -->
 
+<section id="clientes">    <!-- clientes -->
+    <div class="container">
+    <div class="text-center">
+                <h2>Parcerias</h2>
+            </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-2 aligncenter client"> <a href="http://www.agigraphics.it/it/" target="_blank" title="AGI Graphics"><img alt="AGI Graphics" src="<?php echo get_template_directory_uri(); ?>/img/clients/logo1.png" class="img-responsive" /></a> </div>
+        <div class="col-xs-6 col-md-2 aligncenter client"> <a href="http://swedev.se/" target="_blank" title="Swedev"><img alt="Swedev" src="<?php echo get_template_directory_uri(); ?>/img/clients/logo2.png" class="img-responsive" /></a> </div>
+        <div class="col-xs-6 col-md-2 aligncenter client"> <a href="http://www.flintgrp.com/" target="_blank" title="Flint Group"><img alt="Flint Group" src="<?php echo get_template_directory_uri(); ?>/img/clients/logo3.png" class="img-responsive" /></a> </div>
+        <div class="col-xs-6 col-md-2 aligncenter client"> <a href="http://www.leadlasers.com/" target="_blank" title="Lead Laser"><img alt="Lead Laser" src="<?php echo get_template_directory_uri(); ?>/img/clients/logo4.png" class="img-responsive" /></a> </div>
+        <div class="col-xs-6 col-md-2 aligncenter client"> <a href="http://www.keencut.com/" target="_blank" title="Keen Cut - Cutting Machines"><img alt="Keen Cut - Cutting Machines" src="<?php echo get_template_directory_uri(); ?>/img/clients/logo5.png" class="img-responsive" /></a> </div>
+        <div class="col-xs-6 col-md-2 aligncenter client"> <a href="http://www.pcicoatings.com/" target="_blank" title="PCI - Precision Coatings, Inc"><img alt="PCI - Precision Coatings, Inc" src="<?php echo get_template_directory_uri(); ?>/img/clients/logo6.png" class="img-responsive" /></a> </div>
+      </div>
+    </div>
+</section> <!-- end clientes -->
+
+
 <?php get_footer(); ?>
