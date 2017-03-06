@@ -740,7 +740,7 @@ ol.carousel-indicators {
 }
 
 #parallax1{	
-	background-image: url(../img/parallax/1.jpg);
+	background-image: url(../alternativaflexo/img/parallax/1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -758,6 +758,10 @@ ol.carousel-indicators {
 	top: 0;
 	opacity: 0.9;
 	z-index: -1;
+}
+
+#parallax1 .icon, #parallax1 h3 {
+	color:#fff;	
 }
 
 /* ===================================

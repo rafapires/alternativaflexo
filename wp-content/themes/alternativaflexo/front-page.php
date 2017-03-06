@@ -76,4 +76,54 @@
 </div>
 </section> <!-- end call to action -->
 
+<section id="parallax"> <!-- parallax -->
+
+<div id="parallax1" class="parallax text-light text-center marginbot50" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row appear">
+          <div class="col-sm-3 col-md-3 col-lg-3">
+              <div class="box">
+                <div class="aligncenter">
+                <a href="lavadora-de-cliche-acquasolve.php">
+                  <div class="icon"> <i class="fa fa-clock-o fa-5x"></i> </div>
+                  <h3>Aumentam a vida útil</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <div class="box">
+                <div class="aligncenter">
+                <a href="laminas-swed-cut-doctor-blades.php">
+                  <div class="icon"> <i class="fa fa-signal fa-5x"></i> </div>
+                  <h3>Incrementam a produtividade</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <div class="box">
+                <div class="aligncenter">
+                <a href="produtos-limpeza-anilox.php">
+                  <div class="icon"> <i class="fa fa-lightbulb-o fa-5x"></i> </div>
+                  <h3>Inovação e exclusividade</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <div class="box">
+                <div class="aligncenter">
+                <a href="lavadora-de-anilox-ecoclean.php">
+                  <div class="icon"> <i class="fa fa-star-o fa-5x"></i> </div>
+                  <h3>Melhor ambiente de trabalho</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section> <!-- end parallax -->
+
 <?php get_footer(); ?>
