@@ -112,14 +112,14 @@ function register_cpt_produto() {
         'show_in_nav_menus' => true,
         'publicly_queryable' => true,
         'exclude_from_search' => false,
-        'has_archive' => false,
+        'has_archive' => true,
         'query_var' => true,
         'can_export' => true,
         'rewrite' => true,
         'capability_type' => 'post'
     );
 
-    register_post_type( 'produto', $args );
+    register_post_type( 'produtos', $args );
 }
 
 function cpt_rewrite_flush() {
