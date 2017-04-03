@@ -46,17 +46,24 @@
     <div class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_alternativa_flexo.png" alt="" width="131" height="100" /></a> </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="<?php bloginfo('url')?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_alternativa_flexo.png" alt="" width="131" height="100" /></a>
+        </div>
         <div class="navbar-collapse collapse ">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php" class="home">Home</a></li>
-            <li><a href="institucional.php" class="institucional">Institucional</a></li>
-            <li><a href="produtos.php" class="produtos">Produtos</a></li>
-            <li><a href="parceiros.php" class="parceiros">Parceiros</a></li>
-            <li><a href="clientes.php" class="clientes">Clientes</a></li>
-            <li><a href="contato.php" class="contato">Contato</a></li>
-          </ul>
+          <?php
+          wp_nav_menu(
+            array (
+              'menu' => 'top_menu',
+              'depth' => 2,
+              'container' => false,
+              'menu_class' => 'nav navbar-nav')
+          );
+          ?>
+
         </div>
       </div>
     </div>

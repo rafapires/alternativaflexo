@@ -71,6 +71,17 @@ function jquery_cubeportfolio_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'jquery_cubeportfolio_enqueue_scripts' );
 
+// FIM CARREGA CSS, JS e FONTS
+
+// MENUS
+add_action( 'after_setup_theme', 'registra_menus' );
+    if ( ! function_exists( 'registra_menus' ) ):
+        function registra_menus() {  
+            register_nav_menu( 'header', __( 'Header menu', 'af' ) );
+        } endif;
+// FIM MENUS
+
+
 // CRIA PRODUTOS
 
 add_action( 'init', 'register_cpt_produto' );
