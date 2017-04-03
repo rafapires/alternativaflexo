@@ -2671,6 +2671,12 @@ a.btn.btn-wide {
 	outline:0;
 }
 
+/*produtos*/
+#produtos img.wp-post-image {
+    padding: 12px;
+}
+
+/*produtos END*/
 
 
 /* Theme Styler :: End */
