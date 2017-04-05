@@ -15,8 +15,10 @@ if(have_posts()) : while(have_posts()) : the_post();?>
 			?>
 		</div>
 		<div class='col-sm-6'>
-			<h3 style="background-color: yellow">Título</h3>
-			<p style="background-color: green">Descrição</p>
+			<?php
+			the_title('<h3 style="background-color:orange;">','</h3>',true);
+			the_excerpt('<p style="background-color:cyan;">','</p>',true);
+			?>
 		</div>
 	</div>
 <?php

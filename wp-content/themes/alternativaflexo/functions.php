@@ -133,6 +133,48 @@ function register_cpt_produto() {
     register_post_type( 'produtos', $args );
 }
 
+// METABOX PRODUTOS
+add_action('add_meta_boxes', 'produtos_metaboxes');
+
+function produtos_metaboxes() {
+    add_meta_box(
+        'produtos_metabox_id',
+        'detalhes do produto',
+        'produtos_inner_metabox',
+        'produtos'
+    );
+}
+
+function produtos_inner_metabox( $produtos ) {
+?>
+    <p>
+        <label for='complemento_nome'>Complemento nome:</label>
+        <br />
+        <input type="text" name="complemento_nome" value="<?php echo get_post_meta( $produtos->ID, '_complemento_nome', true ); ?>" />
+    </p>
+    <?php
+    $metabox_value = get_post_meta( $produtos->ID, '_sidebar_produtos', false);
+    wp_editor ($metabox_value[0], '_sidebar_produtos');
+}
+
+add_action( 'save_post', 'salva_metabox_produtos', 10, 2 );
+ 
+function salva_metabox_produtos( $produtos_id, $produtos ) {
+ 
+   // Verificar se os dados foram enviados
+   if ( isset ($_POST['complemento_nome'] ) ) {
+        update_post_meta( $produtos_id, '_complemento_nome', strip_tags( $_POST['complemento_nome'] ) );
+   }
+
+   if ( isset ($_POST['_sidebar_produtos'] ) ) {
+       update_post_meta( $produtos_id, '_sidebar_produtos', $_POST['_sidebar_produtos']);
+   }
+ 
+ 
+   return true;
+ 
+}
+
 function cpt_rewrite_flush() {
     flush_rewrite_rules();
 }
