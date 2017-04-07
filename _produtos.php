@@ -10,4 +10,5 @@
         <li><i class="fa fa-angle-right"></i><a href="#">Flexostar - Direct Laser Engraving (DLE)</a></li>
         <li><i class="fa fa-angle-right"></i><a href="produtos-limpeza-anilox.php">Produtos para limpeza de Anilox</a></li>
         <li><i class="fa fa-angle-right"></i><a href="#">Spray protetor Anti entupimento</a></li>
+        <li><i class="fa fa-angle-right"></i><a href="qspac.php">Fitas adesivas para Laminação</a></li>
       </ul>

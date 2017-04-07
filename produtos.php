@@ -157,6 +157,16 @@ h3 {
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12 img-portfolio">
+          <div class="col-md-8">
+            <h3> <a href="qspac.php" title="QSpac - Filme adesivo para Laminação">QSpac - Filme adesivo para Laminação</a> </h3>
+            <p>Surpreenda seus clientes oferecendo um acabamento de altíssima qualidade com essa inovação em fitas adesivas para laminação. É a fita com menor expessura do mercado e a única 100% desenvolvida para impressoras industriais de embalagens o que permite maiores velocidades das impressoras e menor ruído, além de serem também as únicas sem solventes em sua composição permitindo a aplicação em alimentos, remédios, agrícolas e pets.</p>
+          </div>
+          <div class="col-md-4"><a href="qspac.php" title="QSpac - Filme adesivo para Laminação"> <img src="img/home-qspac.jpg"  class="img-responsive img-hover" alt="QSpac - Filme adesivo para Laminação"/> </a></div>
+        </div>
+      </div>
+
     </div>
   </section>
   <?php include("_footer.php"); ?>
