@@ -1,4 +1,4 @@
-f<?php 
+<?php 
 include("orcamento.php");
 $title = 'QSpac Filme adesivo para Laminação | Alternativa Flexo - Soluções para sistemas Flexográficos';
 include("_head.php"); ?>
