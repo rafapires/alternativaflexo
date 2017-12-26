@@ -1,0 +1,817 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable Registration v2.01.01\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: Thu Oct 26 2017 17:38:05 GMT-0700 (PDT)\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Italian\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: it_IT"
+
+#: ../controllers/FrmRegActionController.php:59
+msgid "Successful user registration"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:152
+msgid "User Email Notification"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:482
+msgid "N/A"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:574
+msgid "Admin Email Notification"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:604
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:619
+#, php-format
+msgid "Thanks for creating an account on %s."
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:628
+#, php-format
+msgid "Your username is %s."
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:636
+#, php-format
+msgid "You may %1$slog in here%2$s with the username and password you have created."
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:656
+msgid "To set your password, please visit the following address:"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:670
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:684
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:695
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: ../controllers/FrmRegModerationController.php:405
+msgid ""
+"Your account has been activated. Please check your e-mail for a link to set "
+"your password."
+msgstr ""
+
+#: ../controllers/FrmRegResetPasswordController.php:194
+msgid "Invalid request."
+msgstr ""
+
+#: ../controllers/FrmRegShortcodesController.php:149 ..
+#: views/login_widget_settings.php:41
+msgid "Formidable Style"
+msgstr ""
+
+#: ../controllers/FrmRegShortcodesController.php:166 ..
+#: views/login_widget_settings.php:44
+msgid "Use default Style"
+msgstr ""
+
+#: ../controllers/FrmRegShortcodesController.php:170 ..
+#: views/login_widget_settings.php:47
+msgid "default"
+msgstr ""
+
+#. Name of the plugin
+msgid "Formidable Registration"
+msgstr ""
+
+#. Description of the plugin
+msgid "Register users through a Formidable form"
+msgstr ""
+
+#: ../helpers/FrmRegAppHelper.php:184
+msgid "Create a new subdomain or subdirectory when a user registers with this form."
+msgstr ""
+
+#: ../models/FrmRegEntry.php:520
+#, php-format
+msgid "The following words cannot be used as blog names: %s."
+msgstr ""
+
+#: ../models/FrmRegGlobalSettings.php:70
+msgid "Your username cannot be changed at this time."
+msgstr ""
+
+#: ../models/FrmRegGlobalSettings.php:72
+msgid "Enter your new password below."
+msgstr ""
+
+#: ../models/FrmRegGlobalSettings.php:73
+msgid "Sorry, that site already exists!"
+msgstr ""
+
+#: ../models/FrmRegLoginForm.php:741
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: ../models/FrmRegLoginForm.php:784
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox."
+msgstr ""
+
+#: ../models/FrmRegLoginForm.php:788
+msgid "Your password has been reset."
+msgstr ""
+
+#: ../models/FrmRegLoginForm.php:838
+msgid "Forgot your password?"
+msgstr ""
+
+#: ../models/FrmRegLostPWForm.php:34
+msgid "Get New Password"
+msgstr ""
+
+#: ../models/FrmRegLostPWForm.php:63
+msgid "There are no users registered with this email address."
+msgstr ""
+
+#: ../models/FrmRegLostPWForm.php:69
+msgid ""
+"Your password reset link appears to be invalid. Please request a new link "
+"below."
+msgstr ""
+
+#: ../models/FrmRegLostPWForm.php:72
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr ""
+
+#: ../models/FrmRegLostPWForm.php:75 ../models/FrmRegResetPWForm.php:139
+msgid "An unknown error occurred. Please try again later."
+msgstr ""
+
+#: ../models/FrmRegResetPWForm.php:60 ../views/global_settings.php:111
+msgid "Reset Password"
+msgstr ""
+
+#: ../models/FrmRegResetPWForm.php:127
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+
+#: ../models/FrmRegResetPWForm.php:130
+msgid "The two passwords you entered do not match."
+msgstr ""
+
+#: ../models/FrmRegResetPWForm.php:133
+msgid "Sorry, we do not accept empty passwords."
+msgstr ""
+
+#: ../views/_register_settings.php:5
+msgid ""
+"Only Email fields will show here. An email field must be selected if you "
+"would like to register new users with this form."
+msgstr ""
+
+#: ../views/_register_settings.php:9 ../views/_register_settings.php:145
+msgid "- None -"
+msgstr ""
+
+#: ../views/_register_settings.php:31
+msgid "Automatically generate from email address"
+msgstr ""
+
+#: ../views/_register_settings.php:54
+msgid "Set with link in email notification"
+msgstr ""
+
+#: ../views/_register_settings.php:122
+msgid "First Last"
+msgstr ""
+
+#: ../views/_register_settings.php:123
+msgid "Last First"
+msgstr ""
+
+#: ../views/_register_settings.php:141
+msgid "Website"
+msgstr ""
+
+#: ../views/_register_settings.php:171
+msgid "Only file upload fields will show here."
+msgstr ""
+
+#: ../views/_register_settings.php:198
+msgid ""
+"Please note: the automatic login option will appear if you map the Password "
+"setting to a Password field in your form."
+msgstr ""
+
+#: ../views/_usermeta_row.php:8 ../views/user_meta_settings.php:14
+msgid "Value"
+msgstr ""
+
+#: ../views/email_buttons.php:1
+msgid "Emails"
+msgstr ""
+
+#: ../views/email_buttons.php:2
+msgid "Create admin email"
+msgstr ""
+
+#: ../views/email_buttons.php:3
+msgid "Create user email"
+msgstr ""
+
+#: ../views/global_settings.php:9
+msgid "Global Pages"
+msgstr ""
+
+#: ../views/global_settings.php:12
+msgid "Login/Logout Page"
+msgstr ""
+
+#: ../views/global_settings.php:13
+msgid ""
+"Prevent logged-out users from seeing the wp-admin page. Select a page where "
+"logged-out users will be redirected when they try to access the wp-admin "
+"page or just leave this option blank. Please note that you must have a login "
+"form on the selected page."
+msgstr ""
+
+#: ../views/global_settings.php:21
+msgid "Reset Password Page"
+msgstr ""
+
+#: ../views/global_settings.php:22
+msgid ""
+"Select the page where users can reset their password. Please note that you "
+"must have a reset password form on the selected page."
+msgstr ""
+
+#: ../views/global_settings.php:28
+msgid "Registration Page"
+msgstr ""
+
+#: ../views/global_settings.php:29
+msgid ""
+"Select a page where users can register for your site. Leave this option "
+"blank if you would like to allow users to register on the default WordPress "
+"registration page. Please note that you must have a registration form on the "
+"selected page."
+msgstr ""
+
+#: ../views/global_settings.php:37
+msgid "Default Messages"
+msgstr ""
+
+#: ../views/global_settings.php:38
+msgid "Override the default registration messages."
+msgstr ""
+
+#: ../views/global_settings.php:42
+msgid "Existing Email"
+msgstr ""
+
+#: ../views/global_settings.php:43
+msgid ""
+"The message displayed when an existing email is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:49
+msgid "Existing Username"
+msgstr ""
+
+#: ../views/global_settings.php:50
+msgid ""
+"The message displayed when an existing username is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:56
+msgid "Blank Password"
+msgstr ""
+
+#: ../views/global_settings.php:57
+msgid ""
+"The message displayed when a blank password is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:63
+msgid "Blank Email"
+msgstr ""
+
+#: ../views/global_settings.php:64
+msgid "The message displayed when a blank email is entered in a registration form."
+msgstr ""
+
+#: ../views/global_settings.php:70
+msgid "Blank Username"
+msgstr ""
+
+#: ../views/global_settings.php:71
+msgid ""
+"The message displayed when a blank username is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:77
+msgid "Illegal Username"
+msgstr ""
+
+#: ../views/global_settings.php:78
+msgid ""
+"The message displayed when an illegal username is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:83
+msgid "Illegal Password"
+msgstr ""
+
+#: ../views/global_settings.php:84
+msgid ""
+"The message displayed when an illegal password is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:90
+msgid "Existing Subsite"
+msgstr ""
+
+#: ../views/global_settings.php:91
+msgid ""
+"The message displayed when an existing subsite is entered in a registration "
+"form."
+msgstr ""
+
+#: ../views/global_settings.php:97
+msgid "Update Username"
+msgstr ""
+
+#: ../views/global_settings.php:98
+msgid ""
+"The message displayed when a logged-in user attempts to change their "
+"username."
+msgstr ""
+
+#: ../views/global_settings.php:105
+msgid "The text that appears at the top of the lost password form."
+msgstr ""
+
+#: ../views/global_settings.php:112
+msgid "The text that appears at the top of the reset password form."
+msgstr ""
+
+#: ../views/login_widget_settings.php:36
+msgid "Show lost password link"
+msgstr ""
+
+#: ../views/lost_password_form.php:28
+msgid "Username or Email Address"
+msgstr ""
+
+#: ../views/multisite_settings.php:1
+msgid "Multisite"
+msgstr ""
+
+#: ../views/multisite_settings.php:7
+msgid "Create subsite when user registers"
+msgstr ""
+
+#: ../views/multisite_settings.php:13
+msgid "Blog title"
+msgstr ""
+
+#: ../views/multisite_settings.php:17 ../views/multisite_settings.php:40
+msgid "Automatically generate from username"
+msgstr ""
+
+#: ../views/multisite_settings.php:35
+msgid "Subdirectory or subdomain"
+msgstr ""
+
+#: ../views/multisite_settings.php:39
+msgid "Automatically generate from blog title"
+msgstr ""
+
+#: ../views/permission_settings.php:1
+msgid "Permissions"
+msgstr ""
+
+#: ../views/permission_settings.php:8
+msgid "Allow logged-in users to create new users with this form"
+msgstr ""
+
+#: ../views/permission_settings.php:9
+msgid ""
+"Determine which roles can create new users with this form on the front-end "
+"of your site. The selected roles must submit entries on the back-end of your "
+"site in order to edit their own profile."
+msgstr ""
+
+#: ../views/permission_settings.php:17
+msgid "Role required to create new users:"
+msgstr ""
+
+#: ../views/reset_password_form.php:28
+msgid "New Password"
+msgstr ""
+
+#: ../views/reset_password_form.php:35
+msgid "Confirm New Password"
+msgstr ""
+
+#: ../views/update_database.php:3
+#, php-format
+msgid ""
+"Your Formidable Registration database needs to be updated.%1$sPlease "
+"deactivate and reactivate the plugin or %2$sUpdate Now%3$s"
+msgstr ""
+
+#: ../views/update_database.php:11
+msgid "Loading&hellip;"
+msgstr ""
+
+#: ../views/update_formidable.php:4
+msgid ""
+"Formidable Registration requires that Formidable Pro version 2.0 or greater "
+"be installed. Until then, keep Formidable Registration activated only to "
+"continue enjoying this insightful message."
+msgstr ""
+
+#: ../views/user_meta_settings.php:1
+msgid ""
+"Add user meta to save submitted values to a user's profile. User meta can be "
+"retrieved with the [user_meta key=\"insert_name_here\"] shortcode."
+msgstr ""
+
+#: ../controllers/FrmRegActionController.php:276
+msgid "Email Notification"
+msgstr "Notifica Email"
+
+#: ../controllers/FrmRegActionController.php:693
+#, php-format
+msgid "Username: %s"
+msgstr "Nome utente: %s"
+
+#: ../controllers/FrmRegActionController.php:744
+msgid "User ID"
+msgstr "ID Utente"
+
+#: ../controllers/FrmRegAppController.php:22
+msgid ""
+"You are running an outdated version of Formidable. This plugin will not work "
+"correctly if you do not update Formidable."
+msgstr ""
+"Si esegue una versione non aggiornata di Formidable. Questo plugin potrebbe "
+"non funzionare correttamente se non si aggiorna Formidable."
+
+#: ../controllers/FrmRegModerationController.php:397
+msgid "Your account is now active. Enjoy!"
+msgstr "Il tuo account è attivo. Buon divertimento!"
+
+#: ../controllers/FrmRegModerationController.php:401
+msgid "Your account has been activated. You may now log in."
+msgstr "Il tuo account è stato attivato. Si può ora accedere."
+
+#: ../controllers/FrmRegShortcodesController.php:66 ../models/FrmRegLoginWidget.
+#: php:10
+msgid "Login Form"
+msgstr "Modulo Login"
+
+#: ../controllers/FrmRegShortcodesController.php:66
+msgid "Insert a Login Form"
+msgstr "Inserire un modulo di login"
+
+#: ../controllers/FrmRegShortcodesController.php:89 ..
+#: views/login_widget_settings.php:57
+msgid "Username Label"
+msgstr "Etichetta Username"
+
+#: ../controllers/FrmRegShortcodesController.php:94 ..
+#: views/login_widget_settings.php:63
+msgid "Password Label"
+msgstr "Etichetta Password"
+
+#: ../controllers/FrmRegShortcodesController.php:99 ..
+#: views/login_widget_settings.php:69
+msgid "Remember Me Label"
+msgstr "Etichetta ricordati di me"
+
+#: ../controllers/FrmRegShortcodesController.php:104
+msgid "Login Button Label"
+msgstr "Etichetta bottone login"
+
+#: ../controllers/FrmRegShortcodesController.php:109
+msgid "Logout Label"
+msgstr "Etichetta disconnetti"
+
+#: ../controllers/FrmRegShortcodesController.php:114
+msgid "Display format"
+msgstr "Formato Visualizzazione"
+
+#: ../controllers/FrmRegShortcodesController.php:117
+msgid "Standard (vertical)"
+msgstr "Standard (verticale)"
+
+#: ../controllers/FrmRegShortcodesController.php:118
+msgid "Inline (horizontal)"
+msgstr "In linea (orizzontale)"
+
+#: ../controllers/FrmRegShortcodesController.php:123
+msgid "Require a click to show the login form"
+msgstr "Richiede un clic per visualizzare il modulo di login"
+
+#: ../controllers/FrmRegShortcodesController.php:127
+msgid "Hide the \"Remember Me\" checkbox"
+msgstr "Nascondere la casella \"Ricordami di me\""
+
+#: ../controllers/FrmRegShortcodesController.php:131
+msgid "Hide the username and password labels"
+msgstr "Nascondere le etichette nome utente e password "
+
+#: ../controllers/FrmRegShortcodesController.php:135
+msgid "Hide the login error messages"
+msgstr "Nascondere i messaggi di errore di login"
+
+#: ../controllers/FrmRegShortcodesController.php:139
+msgid "Username Placeholder"
+msgstr "Segnaposto nome utente"
+
+#: ../controllers/FrmRegShortcodesController.php:144
+msgid "Password Placeholder"
+msgstr "Segnaposto password"
+
+#: ../helpers/FrmRegAppHelper.php:181
+msgid "Require new users to confirm their e-mail address before they may log in."
+msgstr ""
+"Richiedere ai nuovi utenti di confermare il loro indirizzo email prima di "
+"poter accedere."
+
+#: ../helpers/FrmRegAppHelper.php:182
+msgid "Require new users to be approved by an administrator before they may log in."
+msgstr ""
+"Richiede che i nuovi utenti devono essere approvati da un amministratore "
+"prima di poter accedere."
+
+#: ../helpers/FrmRegAppHelper.php:183
+msgid ""
+"Select the page where users will be redirected after clicking the activation "
+"link."
+msgstr ""
+"Selezionare la pagina a cui gli utenti saranno reindirizzati dopo aver "
+"cliccato sul link di attivazione."
+
+#: ../helpers/FrmRegMessagesHelper.php:15
+msgid ""
+"The activation e-mail has been sent to the e-mail address with which you "
+"registered. Please check your email and click on the link provided."
+msgstr ""
+"L'email di attivazione è stata inviata all'indirizzo email con cui ti sei "
+"registrato. Controlla la tua email e clicca sul link fornito."
+
+#: ../helpers/FrmRegMessagesHelper.php:26
+msgid "That activation link is invalid."
+msgstr "Questo link di attivazione non è valido."
+
+#: ../helpers/FrmRegMessagesHelper.php:43
+#, php-format
+msgid "You have not confirmed your e-mail address. %1$sResend activation%2$s?"
+msgstr ""
+"Non hai confermato il tuo indirizzo e-mail. %1$sReinvio codice di "
+"attivazione%2$s?"
+
+#: ../models/FrmRegAction.php:16
+msgid "Register User"
+msgstr "Registrazione utente"
+
+#: ../models/FrmRegEmail.php:127
+#, php-format
+msgid "[%s] Activate Your Account"
+msgstr "[%s] Attiva il tuo Account"
+
+#: ../models/FrmRegEmail.php:143
+#, php-format
+msgid ""
+"Thanks for registering at %s! To complete the activation of your account "
+"please click the following link: "
+msgstr ""
+"Grazie per la registrazione su %s! Per completare l'attivazione del tuo "
+"account clicca sul seguente link:"
+
+#: ../models/FrmRegGlobalSettings.php:63
+msgid "This email address is already registered."
+msgstr "Questa email è già presente nei nostri archivi."
+
+#: ../models/FrmRegGlobalSettings.php:64
+msgid "This username is already registered."
+msgstr "Questo nome utente è già registrato."
+
+#: ../models/FrmRegGlobalSettings.php:65
+msgid "Please enter a valid password."
+msgstr "Si prega di inserire una password valida."
+
+#: ../models/FrmRegGlobalSettings.php:66
+msgid "Please enter a valid email address."
+msgstr "Si prega di inserire un indirizzo email valido."
+
+#: ../models/FrmRegGlobalSettings.php:67
+msgid "Please enter a valid username."
+msgstr "Ti preghiamo di inserire un nome utente valido."
+
+#: ../models/FrmRegGlobalSettings.php:68
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+"Questo nome utente non è valido perché utilizza caratteri non validi. "
+"Inserisci un nome utente valido."
+
+#: ../models/FrmRegGlobalSettings.php:69
+msgid "Passwords may not contain the character \"\\\"."
+msgstr "Le password non possono contenere il carattere \"\\\"."
+
+#: ../models/FrmRegGlobalSettings.php:71
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Inserire nome utente o email. Sarà inviato via email un link per creare una "
+"nuova password."
+
+#: ../models/FrmRegLoginForm.php:722
+msgid "The username field is empty."
+msgstr "Il campo nome utente è vuoto."
+
+#: ../models/FrmRegLoginForm.php:725
+msgid "The password field is empty."
+msgstr "Il campo password è vuoto."
+
+#: ../models/FrmRegLoginForm.php:728
+#, php-format
+msgid "Invalid username or password. %1$sLost your password%2$s?"
+msgstr "Nome utente o password non validi. %1$sPassword Dimenticata%2$s?"
+
+#: ../models/FrmRegLoginForm.php:835 ../models/FrmRegLoginWidget.php:17 ..
+#: models/FrmRegLoginWidget.php:79 ../views/_register_settings.php:27
+msgid "Username"
+msgstr "Nome utente"
+
+#: ../models/FrmRegLoginForm.php:836 ../models/FrmRegLoginWidget.php:18 ..
+#: models/FrmRegLoginWidget.php:80 ../views/_register_settings.php:50
+msgid "Password"
+msgstr "Password"
+
+#: ../models/FrmRegLoginForm.php:837 ../models/FrmRegLoginWidget.php:19 ..
+#: models/FrmRegLoginWidget.php:81
+msgid "Remember Me"
+msgstr "Ricordati di me"
+
+#: ../models/FrmRegLoginForm.php:839 ../models/FrmRegLoginWidget.php:20 ..
+#: models/FrmRegLoginWidget.php:82
+msgid "Login"
+msgstr "Accedi"
+
+#: ../models/FrmRegLoginForm.php:840
+msgid "Logout"
+msgstr "Esci"
+
+#: ../models/FrmRegLoginWidget.php:9
+msgid "Add a login form anywhere on your site"
+msgstr "Aggiungi un modulo di login qualsiasi parte del sito"
+
+#: ../models/FrmRegLostPWForm.php:60
+msgid "Please enter a username or email address to continue."
+msgstr "Inserire nome utente o email per continuare."
+
+#: ../models/FrmRegLostPWForm.php:66
+msgid "Please enter a valid email address or username."
+msgstr "Inserire email o nome utente validi."
+
+#: ../views/_register_settings.php:4
+msgid "User Email"
+msgstr "Email Utente"
+
+#: ../views/_register_settings.php:32
+msgid "Use Full Email Address"
+msgstr "Usa Indirizzo completo Email"
+
+#: ../views/_register_settings.php:73
+msgid "First Name"
+msgstr "Nome"
+
+#: ../views/_register_settings.php:77 ../views/_register_settings.php:99 ..
+#: views/_register_settings.php:175
+msgid "None"
+msgstr "Nessuno"
+
+#: ../views/_register_settings.php:95
+msgid "Last Name"
+msgstr "Cognome"
+
+#: ../views/_register_settings.php:117
+msgid "Display Name"
+msgstr "Visualizza Nome"
+
+#: ../views/_register_settings.php:121
+msgid "Same as Username"
+msgstr "Stesso nome utente"
+
+#: ../views/_register_settings.php:163
+msgid "User Role"
+msgstr "Ruolo Utente"
+
+#: ../views/_register_settings.php:171
+msgid "Avatar"
+msgstr "Avatar"
+
+#: ../views/_register_settings.php:193
+msgid "Automatically log in users who submit this form"
+msgstr "Accesso automatico dell'utente quando compila questo modulo"
+
+#: ../views/_register_settings.php:207
+msgid "User Moderation"
+msgstr "Moderazione utente"
+
+#: ../views/_register_settings.php:211
+msgid "Email confirmation"
+msgstr "Email di conferma"
+
+#: ../views/_register_settings.php:216
+msgid "Redirect to:"
+msgstr "Reinderizza a:"
+
+#: ../views/_register_settings.php:224
+msgid "Admin approval"
+msgstr "Approvazione amministratore"
+
+#: ../views/_usermeta_row.php:3 ../views/user_meta_settings.php:13
+msgid "Name"
+msgstr "Nome"
+
+#: ../views/_usermeta_row.php:10
+msgid "Select Field"
+msgstr "Seleziona Campo"
+
+#: ../views/global_settings.php:104
+msgid "Lost Password"
+msgstr "Password dimenticata"
+
+#: ../views/login_widget_settings.php:8
+msgid "Title:"
+msgstr "Titolo:"
+
+#: ../views/login_widget_settings.php:14
+msgid "Display fields in"
+msgstr "Vizualizza Campi in"
+
+#: ../views/login_widget_settings.php:17
+msgid "multiple rows"
+msgstr "righe multiple"
+
+#: ../views/login_widget_settings.php:18
+msgid "a single row"
+msgstr "singola riga"
+
+#: ../views/login_widget_settings.php:24
+msgid "Slide the login area"
+msgstr "Far scorrere l'area di login"
+
+#: ../views/login_widget_settings.php:30
+msgid "Include Remember Me checkbox"
+msgstr "Includi il checkbox ricordati di me"
+
+#: ../views/login_widget_settings.php:52
+msgid "Do not use Formidable styling"
+msgstr "Non utilizzare lo stile Formidable"
+
+#: ../views/user_meta_settings.php:1
+msgid "User Meta"
+msgstr "Meta Utente"
+
+#: ../views/user_meta_settings.php:6
+msgid "Add"
+msgstr "Aggiungi"
