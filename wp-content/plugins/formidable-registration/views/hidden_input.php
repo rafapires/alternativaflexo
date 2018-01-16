@@ -1,0 +1,1 @@
+<input type="hidden" name="frm_register[<?php echo $setting ?>]" value="<?php echo esc_attr( $value ) ?>"/>

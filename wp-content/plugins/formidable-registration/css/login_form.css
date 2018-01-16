@@ -1,0 +1,101 @@
+.with_frm_style.frm_login_form,
+.with_frm_style.frm_login_form form{
+    clear:both;
+}
+
+.frm_login_form .login_lost_pw.frm_half{
+    text-align:right;
+}
+
+/***************************************
+     No labels
+ ***************************************/
+
+.frm_inline_login.frm_no_labels .frm_submit input,
+.frm_inline_login.frm_no_labels .frm_submit button{
+    margin-top:0 !important;
+}
+
+/***************************************
+     Sliding login form
+ ***************************************/
+
+.with_frm_style.frm_login_form.frm_slide.frm_inline_login form,
+.with_frm_style.frm_login_form.frm_slide.frm_inline_login form{
+    clear:none;
+}
+
+.with_frm_style.frm_slide.frm_inline_login .frm-open-login{
+    float:left;
+    margin-right:15px;
+}
+
+.with_frm_style.frm_slide form,
+.frm_slide form,
+.with_frm_style.frm_slide.frm_inline_login a.forgot-password,
+.with_frm_style.frm_slide.frm_inline_login .login-remember{
+    display:none;
+}
+
+.with_frm_style.frm_slide.frm_inline_login .frm_form_field,
+.with_frm_style.frm_slide.frm_inline_login .frm_submit input{
+    margin-bottom:0;
+}
+
+.with_frm_style.frm_slide.frm_inline_login fieldset{
+    padding-bottom:0;
+}
+
+/*****************************************************************************
+     Horizontal form - remove after login form CSS is removed from Formidable
+ *****************************************************************************/
+
+.with_frm_style.frm_login_form.frm_inline_login .login-username,
+.with_frm_style.frm_login_form.frm_inline_login .login-password,
+.with_frm_style.frm_login_form.frm_inline_login .login-remember{
+    margin-right:0 !important;
+}
+
+.with_frm_style.frm_login_form.frm_inline_login form,
+.with_frm_style.frm_login_form.frm_inline_login .login-remember{
+    position:static !important;
+}
+
+/***************************************
+     Links
+ ***************************************/
+
+.with_frm_style.frm_login_form a{
+    text-decoration:none;
+    border:none;
+    outline:none;
+    box-shadow:none;
+}
+
+/***************************************
+     Math Captcha
+ ***************************************/
+
+.with_frm_style.frm_login_form .cptch_block .cptch_title{
+    display:none;
+}
+
+/************************************************
+     Responsive remember me and lost password
+ ************************************************/
+
+@media only screen and (max-width: 600px) {
+    .frm_login_form .login_lost_pw.frm_half{
+        text-align:left;
+    }
+
+    .with_frm_style .login-remember.frm_first.frm_half,
+    .with_frm_style.frm_login_form .login_lost_pw.frm_half{
+        text-align:center;
+    }
+
+    .with_frm_style.frm_slide.frm_inline_login .frm_form_field,
+    .with_frm_style.frm_slide.frm_inline_login .frm_submit input{
+        margin-bottom:20px;
+    }
+}
