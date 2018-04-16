@@ -33,8 +33,8 @@
             <li><a href="institucional.php" class="institucional">Institucional</a></li>
             <li><a href="produtos.php" class="produtos">Produtos</a></li>
             <li><a href="parceiros.php" class="parceiros">Parceiros</a></li>
-            <li><a href="clientes.php" class="clientes">Clientes</a></li>
-            <li><a href="contato.php" class="contato">Contato</a></li>
+<!--             <li><a href="clientes.php" class="clientes">Clientes</a></li>
+ -->            <li><a href="contato.php" class="contato">Contato</a></li>
           </ul>
         </div>
       </div>
